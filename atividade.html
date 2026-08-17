@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de login</title>
+    <script src="javinha.js"></script>
+    <link rel="stylesheet" href="carlos.css">
+</head>
+<body>
+    
+    <form>
+         <h2>Sistema de login</h2>
+        <div>
+            <label for="login">digite seu login:</label>
+            </br>
+            <input type="text" id="login">
+        </div>
+        <div>
+            <label for="senha">digite sua senha:</label>
+            </br>
+            <input type="password" id="senha">
+        </div>
+        <button type="button" onclick="verificarFormulario()">Enviar/Validar</button>
+        <div>
+            <span id="tentativas"></span>
+        </div>
+    </form>
+    <p id="mensagem"></p>
+</body>
+</html>
